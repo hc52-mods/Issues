@@ -1,2 +1,2 @@
-# fabric-server-preview-mod
-Fabric Server Preview Mod
+# fabric-server-preview-mod-issues
+Type your Issues in Issues in
