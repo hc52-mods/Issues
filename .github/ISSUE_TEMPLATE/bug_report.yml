@@ -2,7 +2,7 @@ name: Bug Report
 description: Melde einen Fehler, den du gefunden hast
 title: "[BUG] Titel des Fehlers hier"
 labels: [bug]
-assignees: []
+assignees: [hennycraft52]
 
 body:
   - type: markdown
