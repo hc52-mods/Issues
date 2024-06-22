@@ -5,6 +5,17 @@ labels: [bug]
 assignees: [hennycraft52]
 
 body:
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Schweregrad des Fehlers
+      description: Wähle den Schweregrad des Fehlers aus
+      options:
+        - Minor
+        - Major
+        - Critical
+      required: true
+
   - type: markdown
     attributes:
       value: |
@@ -27,6 +38,7 @@ body:
         2. Klicke auf '...'
         3. Scrolle herunter zu '...'
         4. Fehler tritt auf
+
   - type: textarea
     id: screenshots
     attributes:
