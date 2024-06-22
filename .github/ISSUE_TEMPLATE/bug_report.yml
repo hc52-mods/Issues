@@ -27,21 +27,6 @@ body:
         2. Klicke auf '...'
         3. Scrolle herunter zu '...'
         4. Fehler tritt auf
-
-  - type: input
-    id: expected_behavior
-    attributes:
-      label: Erwartetes Verhalten
-      description: Eine klare und prägnante Beschreibung dessen, was du erwartet hast, dass passiert.
-      placeholder: Ich erwartete...
-
-  - type: input
-    id: actual_behavior
-    attributes:
-      label: Aktuelles Verhalten
-      description: Was tatsächlich passiert ist, einschließlich einer fehlerhaften Ausgabe, Fehlermeldungen oder Verhaltensweisen.
-      placeholder: Tatsächlich passierte...
-
   - type: textarea
     id: screenshots
     attributes:
