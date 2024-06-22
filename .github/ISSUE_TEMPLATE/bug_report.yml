@@ -5,17 +5,6 @@ labels: [bug]
 assignees: [hennycraft52]
 
 body:
-  - type: dropdown
-    id: severity
-    attributes:
-      label: Schweregrad des Fehlers
-      description: Wähle den Schweregrad des Fehlers aus
-      options:
-        - Minor
-        - Major
-        - Critical
-      required: true
-
   - type: markdown
     attributes:
       value: |
@@ -28,6 +17,16 @@ body:
       description: Eine kurze, prägnante Beschreibung des Fehlers.
       placeholder: Der Fehler ist...
 
+  - type: dropdown
+    id: auswahl
+    attributes:
+      label: Auswahl
+      description: Wähle eine Option aus
+      options:
+        - Option 1
+        - Option 2
+        - Option 3
+
   - type: textarea
     id: steps_to_reproduce
     attributes:
@@ -38,7 +37,6 @@ body:
         2. Klicke auf '...'
         3. Scrolle herunter zu '...'
         4. Fehler tritt auf
-
   - type: textarea
     id: screenshots
     attributes:
@@ -56,9 +54,3 @@ body:
         - Browser: [z.B. Chrome, Firefox, Safari]
         - Version: [z.B. 1.2.3]
 
-  - type: textarea
-    id: additional_information
-    attributes:
-      label: Zusätzliche Informationen
-      description: Jegliche zusätzlichen Informationen oder Kontext zum Problem hier.
-      placeholder: Zusätzliche Informationen...
