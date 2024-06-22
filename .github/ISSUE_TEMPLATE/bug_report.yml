@@ -23,9 +23,7 @@ body:
       label: Auswahl
       description: Wähle eine Option aus
       options:
-        - Option 1
-        - Option 2
-        - Option 3
+        - Fabric Server Preview
 
   - type: textarea
     id: steps_to_reproduce
