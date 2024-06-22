@@ -1,7 +1,7 @@
-name: Bug Report
-description: Melde einen Fehler, den du gefunden hast
-title: "[BUG] Titel des Fehlers hier"
-labels: [bug]
+name: Support
+description: Melde dich einfach :)
+title: "[Support] Titel des Fehlers hier"
+labels: [Support]
 assignees: [hennycraft52]
 
 body:
